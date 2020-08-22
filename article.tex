@@ -1,5 +1,16 @@
 \documentclass{rescience}
 
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{hyperref}
+
+\usepackage{float}
+\floatstyle{boxed} 
+\restylefloat{figure}
+
+\usepackage{enumitem}% http://ctan.org/pkg/enumitem
+\addbibresource{bibliography.bib}
+
 \begin{document}
 \input{header.tex}
 \input{content.tex}
@@ -7,6 +18,6 @@
 \hypersetup{linkcolor=black,urlcolor=darkgray}
 \renewcommand\emph[1]{{\bfseries #1}}
 \setlength\bibitemsep{0pt}
-\printbibliography
+
 
 \end{document}
