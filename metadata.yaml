@@ -58,7 +58,7 @@ The automated production of symbols allows for enhancements such as colour-codin
 This Pascal program was the basis for further developments during the past thirty years, in geographical information systems and in R."
 
 # Bibliography file (yours)
-bibliography: Silberbauer-2020.bib
+bibliography: bibliography.bib
 
 # Type of the article
 # Type can be:
